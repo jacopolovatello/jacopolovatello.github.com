@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/main.css" />
+    <title>Jacopo Lovatello</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"/>
+</head>
+<body>
+    <!-- main container -->
+    <div class="container">
+
+        <!-- header -->
+        <header id="header">
+            <div class="navbar">
+                <img href="#intro" src="assets/images/logo.png"/>
+                <a href="#about">BIO</a>
+                <a href="#cv">CV</a>
+                <a href="#work">WORK</a>
+                <a href="#introduction">HOME</a>
+            </div>
+        </header>
+
+        <!-- introduction -->
+        <section id="introduction">
+            <div class="intro">
+                <header>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="assets/images/io.png">
+                    <h2>JACOPO LOVATELLO</h2>
+                    <h3>Audio DSP Engineer</h3>
+                    <div class="introtext">
+                        <p>I'm Jacopo, an audio DSP engineer from Italy living and working in Sweden.</p>
+                        <p>I'm currently working as DSP Electronics Developer at Softube in Linköping. 
+                           There, I research, design, and implement algorithms for audio DSP; my work is 
+                           particularly focused on circuit modeling and virtual analog.
+                           Lately, I am charged with the modeling of Softube's flagship fully modeled synthesizers.</p> 
+                        <p>I also hold a small role as Platform Integrations Lead Developer, for which 
+                           I manage very small groups of developers and UI designer porting already
+                           developed products to Softube's propietary platforms.</p> 
+                    </div>
+                    <br>
+                </header>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- work -->
+        <section id="work">
+            <div class="work">
+                <br>
+                <header>
+                    <h2>WORK</h2>
+                </header>
+                <div>
+                    <h3><a href="https://www.softube.com/model-84-polyphonic-synthesizer">
+                    Model 84 Polyphonic Synthesizer - Softube (2021)</a></h3>
+                    <div class="workimg"><img src="assets/images/model84.png" alt="" /></div>
+                    <p>Task: Circuit modeling and firmware emulation of a Roland Juno-106 from 1984. <br>
+                       Role: Tech Lead and DSP Developer. </p>
+                    <p>Model 84 is Softube's first fully modeled polyphonic synthesizer. This required the 
+                       development of new circuit modeling techniques that combined both accuracy and 
+                       a limited CPU consumption. Special care has been taken in developing the 
+                       original voice allocation modes, in replicating the chorus noise and in emulating 
+                       the phasing artifacts characterizing the Unison mode.
+                   </p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://www.softube.com/model-72-synthesizer-system">
+                    Model 72 Synthesizer System - Softube (2020)</a></h3>
+                    <div class="workimg"><img src="assets/images/model72.png" alt="" /></div>
+                    <p>Task: Circuit modeling of a Moog Minimoog from 1972. <br>
+                       Role: Tech Lead and DSP Developer. </p>
+                    <p>Model 72 is Softube fully modeled synthesizer. This required the development of new technique 
+                       and procedures that weren't previously part of the company's portfolio.
+                       Special care has been taken in replicating the feedback around the VCF and VCA used 
+                       by many to increase the saturation in the original hardware.  
+                   </p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://www.softube.com/weiss-eq1">
+                    Weiss EQ1 - Softube (2019)</a></h3>
+                    <div class="workimg"><img src="assets/images/weisseq1.png" alt="" /></div>
+                    <p>Task: SHARC Assembly porting to C++ of the DSP running on the original hardware. <br>
+                       Role: DSP Developer. </p>
+                    <p>This project was a different challenge since no circuit modeling was needed, being the 
+                       hardware completely digital. I handled the pre-study, analysis and algorithm porting of 
+                       the IIR filters, linear phase algorithm and dynamic model. I was also in charge of setting up
+                       the main structure of the whole plugin.
+                    </p>
+                    <p>This plugin received a nomination for the 
+                        <a href="https://www.namm.org/news/press-releases/nominees-36th-annual-tec-awards-announced">NAMM 36th TEC Awards</a> in January 2020.</p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://www.softube.com/germanium-compressor">
+                    Chandler Limited Germanium Compressor - Softube (2019)</a></h3>
+                    <div class="workimg"><img src="assets/images/germcomp.png" alt="" /></div>
+                    <p>Task: Circuit modeling of a JFET compressor with discrete germanium amplifier. <br>
+                       Role: Tech Lead and DSP Developer. </p>
+                    <p>The Germanium Compressor is a versatile JFET compressor with a characteristic discrete 
+                       germanium amplifier. The original circuitry is characterized by multiple non-linear behaviors 
+                       placed in multiple feedback loops, this required extreme care in the modeling process. The 
+                       original mono hardware has been enhanced with stereo and mid-side, linked and un-linked
+                       processing capabilities.  
+                    </p>
+                    <p>This plugin received a nomination for the 
+                        <a href="https://www.namm.org/news/press-releases/nominees-36th-annual-tec-awards-announced">NAMM 36th TEC Awards</a> in January 2020.</p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://www.softube.com/buchla296e">
+                    Buchla 296e - Softube (2019)</a></h3>
+                    <div class="buchla"><img src="assets/images/buchla296e.png" alt="" /></div>
+                    <p>Task: Circuit modeling and firmware emulation of a Buchla 296e.<br>
+                       Role: Tech Lead and DSP Developer.</p>
+                    <p>Buchla 296e is a filter bank/VCA combo with particular features that unlock 
+                       spectral transfer and spectral modulation capabilities. 
+                       Since the unit processes both analog and digital signals, the project required both the 
+                       modeling of the analog circuitry and the emulation of the firmware running in the original hardware. 
+                       Moreover, special care has been taken in modeling the AD and DA converters, in order to get the closest 
+                       possible emulation. 
+                    </p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://www.uaudio.com/uad-plugins/special-processing/softube-vocoder.html">
+                    Softube Vocoder - Softube (2018)</a></h3>
+                    <div class="workimg"><img src="assets/images/vocoder.png" alt="" /></div>
+                    <p>Task: Design of an analog inspired real-time software vocoder for UAD hardware and UA Audio Interfaces.<br>
+                       Role: Tech Lead and DSP Developer.</p>
+                    <p>Softube Vocoder is the first project I worked on at Softube. Special care has been taken in 
+                       developing an easy-to-use vocoder with built-in polyphonic synthesizer.
+                       The implementation proved to be non-trivial due to the limitations, both in 
+                       memory usage and CPU performance, of the hardware the product is designed to run on. 
+                    </p> 
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <h3><a href="https://ieeexplore.ieee.org/document/8553083">
+                    Steerable Circular Differential Microphone Arrays - Politecnico di Milano (2018)</a></h3>
+                    <div class="scdma"><img src="assets/images/scdma.png" alt="" /></div>
+                    <p>An efficient continuous beam steering method, applicable to differential microphones of any order.</p>
+                    <p>As objective of my master thesis, I developed a novel beam steering method useful to implement 
+                    up to third-order cardioids beam-patterns, with arbitrary steering direction, using circular microphone arrays.</p>
+                    <p>This research has been presented at the  
+                        <a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2018/index.html">26th European Signal Processing Conference (EUSIPCO)</a> in September 2018.</p>
+                </div>
+                <br>
+            </div>
+        </section>
+
+        <hr>
+        <!-- CV -->
+        <section id="cv">
+            <div class="cv">
+                <br>
+                <header><h2>CV</h2></header>
+                
+                <div><h4>Softube AB, June 2020 - present</h4>
+                <h3>PLATFORM INTEGRATIONS LEAD DEVELOPER</h3>
+                Manage the inter-platform integrations portfolio. Plan, design and create new modules for platforms. Prioritize and design platform adaptations of existing products/modules. Design platform specific features and customizations.
+                </div><br><hr><br>
+                
+                <div><h4>Softube AB, April 2018 - present</h4>
+                <h3>DSP ELECTRONICS DEVELOPER</h3>
+                Research and implement new technologies needed for modelling physical systems for product development. Perform measurements and testing on the units to be modeled. General plug-in and framework related development. Implementing and verifying A/B test setups.
+                </div><br><hr><br>
+
+                <div><h4>Politecnico di Milano, October 2015 – April 2018</h4>
+                <h3>M.Sc., COMPUTER SCIENCE AND ENGINEERING – SOUND AND MUSIC ENGINEERING</h3>
+                110/110 with honours, GPA 29.3/30 <br>
+                Thesis: Steerable Robust Circular Differential Microphone Arrays.
+                </div><br><hr><br>
+
+                <div><h4>Università degli Studi di Milano, September 2012 – July 2015</h4>
+                <h3>B.Sc., MUSIC INFORMATION SCIENCE</h3>
+                110/110 with honours, GPA 28.0/30 <br>
+                Thesis: Performance Oriented Pure Data Modules for Real Time Sound Synthesis and Parameters Control.
+                </div><br>
+            </div>
+            <br>
+        </section>
+
+        <hr>
+        <!-- about -->
+        <section id="about">
+            <div class="about">
+                <br>
+                <header><h2>BIO</h2></header>
+                <p>Born 1992 in Bergamo, Italy. I live and work in Linköping, Sweden.<p>
+                <p>After graduating from Politecnico di Milano (MSc) and Università degli Studi di Milano (BSc), I moved to Sweden and started working for Softube as DSP Developer. There, I design algorithms for sound synthesis and processing, with a focus on the modeling of analog and mixed-signal electronic circuits.
+                I took the role of tech lead for different products and worked on projects in partnership with Weiss Engineering Ltd., Chandler Limited, Buchla USA and Universal Audio.<p>
+                <p>Lately, I’ve been working on Softube’s flagship modeled synthesizers, researching and implementing virtual analog and circuit modeling techniques, while developing the projects from start to end.<p>
+                <p>When I’m not working, I enjoy spending time in Swedish forests, lakes, and mountains, and ride my longboard over long distances.<p>
+                <p>While studying, I started dipping my toe in electro-acoustic music; I particularly enjoy composing and performing on a modular synthesizer or with a heavily processed electric guitar.<p>
+            </div>
+        </section>
+
+        <br>
+
+        <!-- footer -->
+        <footer id="footer"> 
+            <div class="bottomlinks" id="links">
+                <a href="https://www.linkedin.com/in/jacopolovatello/" class="fa fa-linkedin"></a>
+                <a href="https://twitter.com/patasgnau"                class="fa fa-twitter"></a>
+                <a href="https://github.com/jacopolovatello"           class="fa fa-github"></a>
+                <a href="https://jacopolovatello.bandcamp.com/"        class="fa fa-bandcamp"></a>
+            </div>
+            <div class="copyright">
+                <br>
+                &copy; 2021 Jacopo Lovatello <br><br>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

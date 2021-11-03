@@ -1,0 +1,210 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    scroll-padding-top: 20px; 
+}
+
+body {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Comfortaa", cursive;, sans-serif;
+    background-color: rgba(0, 0, 0, 1.0);
+    margin: 20px auto 0;
+}
+
+.navbar { 
+    margin: 0 0 0 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    align-items: center;
+}
+
+.navbar img {
+    float: left;
+    margin: 0.5em 0 0.5em 1em;
+}
+
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0.5em 0 0.5em 0;
+
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* main contetn */
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    align-items: center;
+    width: 20%;
+    min-width: 12em;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin: 0.5em 0 0 0;
+}
+
+.intro h3 {
+    font-size: 1.3em;
+    margin: 0.5em 0 2em 0;
+    font-style: normal;
+}
+
+.introtext { 
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    line-height: 1.4;
+}
+
+hr {
+    width: 80%;
+}
+
+/* work */
+.work {
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    line-height: 1.4;
+}
+
+.work img {
+    width: 80%;
+    transition: width 0.2s, height 0.4s;
+    transition-timing-function: ease-out;
+    margin: auto;
+    text-align: center;
+}
+
+.work img:hover { 
+    width: 100%;
+}
+
+.work a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.workimg {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.buchla {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.scdma {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.work hr {
+    width: 100%;
+}
+
+.work h3 {
+    text-align: center;
+}
+
+.work h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cv {
+    width: 60%;
+    line-height: 1.4;
+    margin: auto;
+}
+
+.cv h2 {
+    text-align: center;
+}
+
+.cv h3 {
+    margin: -0.5em 0 0.5em 0;
+}
+
+.cv hr {
+    width: 100%;
+}
+
+/* about */
+.about {
+    font-size: 1em;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+}
+
+.bottomlinks { 
+    overflow: hidden;
+}
+
+.bottomlinks a {
+    float: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.bottomlinks a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.bottomlinks a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 80px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
