@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 
 html {
     scroll-padding-top: 20px; 
@@ -31,9 +33,9 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 3%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 100%;
     margin: 0.5em 0 0.5em 0;
 
 }
@@ -76,6 +78,7 @@ body {
     text-align: left;
     margin: auto;
     width: 60%;
+    min-width: 300px;
     line-height: 1.4;
 }
 
@@ -90,6 +93,7 @@ hr {
     align-items: center;
     margin: auto;
     width: 60%;
+    min-width: 300px;
     line-height: 1.4;
 }
 
@@ -141,6 +145,7 @@ hr {
 
 .cv {
     width: 60%;
+    min-width: 300px;
     line-height: 1.4;
     margin: auto;
 }
@@ -162,6 +167,7 @@ hr {
     font-size: 1em;
     text-align: left;
     width: 60%;
+    min-width: 300px;
     margin: auto;
     line-height: 1.6;
 }
@@ -198,9 +204,10 @@ footer {
 }
 
 .fa {
-    padding: 20px;
+    padding: 5%;
     font-size: 80px;
-    width: 50px;
+    width: 4%;
+    min-width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
